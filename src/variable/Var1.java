@@ -1,10 +1,15 @@
 package variable;
 
-public class Var1{
+public class Var2{
     public static void main(String[] args) {
-        int a = 10;
-        int b = 30;
+        int j = 2;
+        for (int i = 1; i < 10; i++){
+            if (i == 5) {
+                System.out.println("넘어가");
+            } else {
+                System.out.println(i);
+            }
+        }
 
-        int max = (a > b) ? a : b;
     }
 }
